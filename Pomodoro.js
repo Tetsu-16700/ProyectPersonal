@@ -42,4 +42,24 @@ function renderTasks() {
 
   const tasksContainer = document.querySelector("#tasks");
   tasksContainer.innerHTML = html.join("");
+
+  const startButtons = document.querySelectorAll(".task . start_Button");
+
+  startButtons.forEach((button) => {
+    button.addEventListener("click", (e) => {
+        if(!timer){
+            const id= button.getAttribute('data-id');
+            startButtonsHandler(id);
+            button.textContent = 'In Progess...';
+        }
+    });
+  });
+}
+
+function startButtonsHandler(id){
+    time =  25 * 60;
+    current = id;
+    const taskIndex = tasks.findIndex(task => task.id === id);
+    const taskName = document.querySelector('#time #taskName');
+    taskName.textContent = tasks[taskIndex].title;
 }
