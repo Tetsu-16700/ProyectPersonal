@@ -4,16 +4,16 @@ let timer = null;
 let timerBreack = null;
 let current = null;
 
-const bAss = document.querySelector("#bAdd");
-const idTask = document.querySelector("#idTask");
+const bAdd = document.querySelector("#bAdd");
+const itTask = document.querySelector("#itTask");
 const form = document.querySelector("#form");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-  if (idTask.value !== "") {
-    createTrask(idTask.value);
-    idTask.value = "";
-    renderTask();
+  if (itTask.value !== "") {
+    createTrask(itTask.value);
+    itTask.value = "";
+    renderTasks();
   }
 });
 
@@ -26,14 +26,20 @@ function createTrask(value) {
 
   tasks.unshift(newTask);
 }
-function renderTask() {
+function renderTasks() {
   const html = tasks.map((task) => {
     return `
     <div class="task">
-        <div class="completed"></div>
-        <div class="title"></div>
-        
+        <div class="completed">${
+          task.completed
+            ? `<span class="done">Done</span>`
+            : `<button class="start_Button" data-id="${task.id}">Start</button>`
+        }</div>
+        <div class="title">${task.title}</div>
     </div>
     `;
   });
+
+  const tasksContainer = document.querySelector("#tasks");
+  tasksContainer.innerHTML = html.join("");
 }
