@@ -50,3 +50,8 @@ input [type="submit"] {
     align-items: center;
     gap: 10px;
 }
+.done{
+    display: inline-block;
+    padding: 5px;
+    background-color: #ccc;
+}
