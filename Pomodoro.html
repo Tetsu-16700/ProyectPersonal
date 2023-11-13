@@ -3,26 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Pomodoro</title>
     <link rel="stylesheet" href="Pomodoro.css" />
   </head>
   <body>
     <div id="app">
-      <div id="type"></div>
-      <div id="value"></div>
-      <!--Tarea Regresiva-->
-      <div id="taskName"></div>
-      <!--Tarea Actual-->
+      <div id="time">
+        <div id="value"></div>
+        <!--Tarea Regresiva-->
+        <div id="taskName"></div>
+        <!--Tarea Actual-->
+      </div>
 
-      <div class="tasks_Container">
+      <div class="tasks-container">
         <div class="form">
           <form action="" id="form">
             <input type="text" id="itTask" />
-            <input type="submit" value="Agregar Tarea" id="bAdd" />
+            <input type="submit" id="bAdd" value="Agregar Tarea" />
           </form>
         </div>
         <div id="tasks">
-            
+          <div class="task"></div>
         </div>
       </div>
     </div>
