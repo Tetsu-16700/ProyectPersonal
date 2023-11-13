@@ -1,12 +1,12 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: hsl(300, 100%, 25%) 0;
+  background-color: hsl(300, 75%, 71%);
 }
 #app {
-  background-color: bisque;
+  background-color: hsl(32, 19%, 85%);
   width: 500px;
   margin: 0 auto;
-  border: solid 1 px #ccc;
+  border: solid 1 px hsl(0, 0%, 80%);
   padding: 20px;
 }
 #time {
@@ -21,20 +21,20 @@ body {
   display: flex;
   justify-content: center;
 }
-input {
+input [type="text"] {
   padding: 10px;
-  border: solid 1px #ccc;
+  border: solid 1px hsl(0, 0%, 80%);
   width: 300px;
 }
 button,
 input [type="submit"] {
   border: none;
-  background-color: #003366;
-  color: white;
+  background-color: hsl(210, 100%, 20%);
+  color: hsl(0, 0%, 100%)ff;
   padding: 10px;
   border-radius: 5px;
 }
-#task{
+#tasks{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -50,8 +50,8 @@ input [type="submit"] {
     align-items: center;
     gap: 10px;
 }
-.done{
+.done {
     display: inline-block;
     padding: 5px;
-    background-color: #ccc;
+    background-color: hsl(0, 0%, 80%);
 }
