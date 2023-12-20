@@ -1,0 +1,44 @@
+/* Fuente que se utilizara en la pag */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+html {
+  scroll-behavior: smooth;
+}
+/* estilos a la imagen de centro */
+#inicio {
+  background: linear-gradient(hsla(0, 0%, 0%, 0.7), hsla(0, 0%, 0%, 0.7)),
+    url("/Portafolio/assets/img/imagen\ fondo.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+/* estilos al encabezado */
+#inicio .contenido header {
+  background-color: hsla(0, 0%, 0%, 0.8);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+}
+#inicio .contenido header .contenido-header {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+#inicio .contenido header .contenido-header h1 {
+  text-align: center;
+  color: rgb(149, 0, 255);
+}
+#inicio .contenido header .contenido-header nav ul{
+list-style: none;
+display: flex;
+align-items: center;
+}
