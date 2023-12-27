@@ -162,7 +162,7 @@ html {
 #sobreMi .sobreMi p {
   font-size: 14px;
   line-height: 25px;
-  color: #565656;
+  color: rgb(86, 86, 86);
   margin-bottom: 12px;
 }
 #sobreMi .sobreMi a{
@@ -171,11 +171,11 @@ html {
   color: rgb(0, 0, 0);
   border-radius: 30px;
   padding: 10px 20px;
-  border: 1px solid #000;
+  border: 1px solid rgb(0, 0, 0);
   margin-top: 30px;
   transition: 3s;
 }
 #sobreMi .sobreMi a:hover{
   background-color:rgb(207, 165, 237) ;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
