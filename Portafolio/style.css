@@ -165,7 +165,7 @@ html {
   color: rgb(86, 86, 86);
   margin-bottom: 12px;
 }
-#sobreMi .sobreMi a{
+#sobreMi .sobreMi a {
   display: inline-block;
   text-decoration: none;
   color: rgb(0, 0, 0);
@@ -175,7 +175,67 @@ html {
   margin-top: 30px;
   transition: 3s;
 }
-#sobreMi .sobreMi a:hover{
-  background-color:rgb(207, 165, 237) ;
+#sobreMi .sobreMi a:hover {
+  background-color: rgb(207, 165, 237);
   color: rgb(255, 255, 255);
-} 
+}
+/* Estilos de seccion de servicios */
+#servicios {
+  padding: 100px 15px;
+  text-align: center;
+  background-color: rgb(247, 232, 248);
+}
+#servicios .titulo-seccion {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: rgb(17, 17, 53);
+  text-decoration: underline;
+  text-decoration-color: rgb(233, 218, 245);
+  text-decoration-thickness: 5px;
+}
+#servicios .fila {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 30px auto;
+}
+#servicios .fila .servicio {
+  max-width: 350px;
+  background-color: rgb(218, 208, 231);
+  padding: 30px;
+  margin: 0 5px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+#servicios .fila .servicio:hover {
+  box-shadow: 5px 5px 10px rgb(200, 149, 237), -5px -5px 10px rgb(200, 149, 237);
+}
+#servicios .fila .servicio h4 {
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+#servicios .fila .servicio .icono {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f9f7f7;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+#servicio .fila .servicio hr {
+  width: 30%;
+  margin: auto;
+  color: #000;
+  margin-bottom: 25px;
+}
+#servicios .fila .servicio ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+#servicios .fila .servicio p{
+  font-size: 14px;
+  line-height: 22px;
+}
