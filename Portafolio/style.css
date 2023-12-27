@@ -1,3 +1,4 @@
+/* Seccion inicio */
 /* Fuente que se utilizara en la pag */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,200&display=swap");
 * {
@@ -72,6 +73,7 @@ html {
   align-items: center;
   justify-content: center;
 }
+/* Estiliacion area bienvenida */
 #inicio .contenido .presentacion .bienvenida {
   font-size: 16px;
   margin-bottom: 20px;
@@ -111,4 +113,69 @@ html {
 #icono-nav {
   color: rgb(170, 152, 194);
   display: none;
+}
+/* Estilizacion area sobre mi */
+#sobreMi {
+  max-width: 1100px;
+  margin: auto;
+  padding: 100px 15px;
+  color: rgb(17, 17, 54);
+  display: flex;
+}
+#sobreMi .contenedor-imagen {
+  max-width: 400px;
+  margin-right: 80px;
+}
+#sobreMi .contenedor-imagen img {
+  padding: 20px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: rgb(245, 239, 250);
+}
+#sobreMi .sobreMi {
+  margin: 0 40px;
+}
+#sobreMi .sobreMi .titulo-seccion {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: rgb(17, 17, 53);
+  text-decoration: underline;
+  text-decoration-color: rgb(233, 218, 245);
+  text-decoration-thickness: 5px;
+}
+#sobreMi .sobreMi h2 {
+  font-size: 34px;
+  font-weight: bold;
+  margin: 20px 0;
+  letter-spacing: 2px;
+}
+#sobreMi .sobreMi h2 span {
+  color: rgb(149, 0, 255);
+}
+#sobreMi .sobreMi h3 {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+#sobreMi .sobreMi p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #565656;
+  margin-bottom: 12px;
+}
+#sobreMi .sobreMi a{
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  margin-top: 30px;
+  transition: 3s;
+}
+#sobreMi .sobreMi a:hover{
+  background-color:rgb(207, 165, 237) ;
+  color: #fff;
 }
