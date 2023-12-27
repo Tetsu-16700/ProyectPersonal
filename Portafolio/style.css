@@ -272,6 +272,8 @@ html {
   margin: 10px 0;
 }
 /* El estilo se aplica despues de utilizas JS para animacion de barra */
+/* completar todos los lenguajes en conocimiento */
+/* agregar barra-progresonro... */
 .contenedor-skills .skills .barra .barra-progreso1 {
   background-color: rgb(200, 149, 237);
   width: 95%;
