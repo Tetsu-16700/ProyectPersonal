@@ -25,15 +25,15 @@
             <h1>/Fer/</h1>
             <nav id="nav" class="">
               <ul id="links">
-                <li><a href="#inicio" class="seleccionado">INICIO</a></li>
-                <li><a href="#sobreMi" class="seleccionado">SOBRE MI</a></li>
-                <li><a href="#servicios" class="seleccionado">SERVICIOS</a></li>
-                <li><a href="#portfolio" class="seleccionado">PORTFOLIO</a></li>
-                <li><a href="#contacto" class="seleccionado">CONTACTO</a></li>
+                <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                <li><a href="#sobreMi" class="seleccionado" onclick="seleccionar(this)">SOBRE MI</a></li>
+                <li><a href="#servicios" class="seleccionado" onclick="seleccionar(this)">SERVICIOS</a></li>
+                <li><a href="#portfolio" class="seleccionado" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                <li><a href="#contacto" class="seleccionado" onclick="seleccionar(this)">CONTACTO</a></li>
               </ul>
             </nav>
             <!-- icono del menu responsive -->
-            <div id="icono-nav" onclick="responsive()">
+            <div id="icono-nav" onclick="responsiveMenu()">
               <i class="fa-solid fa-bars"></i>
             </div>
             <!-- iconos de redes -->
@@ -180,11 +180,20 @@
       <h3>HABILIDADES</h3>
       <div class="skills">
         <div class="info">
-          <p><span class="listas"></span>Html & Css</p>
+          <p><span class="listas"></span>Html</p>
           <span class="porcentaje">95%</span>
         </div>
         <div class="barra">
           <div id="html" class=""></div>
+        </div>
+      </div>
+      <div class="skills">
+        <div class="info">
+          <p><span class="listas"></span>Css</p>
+          <span class="porcentaje">95%</span>
+        </div>
+        <div class="barra">
+          <div id="css" class=""></div>
         </div>
       </div>
       <div class="skills">
