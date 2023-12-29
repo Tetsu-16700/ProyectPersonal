@@ -400,7 +400,7 @@ html {
   text-align: center;
   font-size: 22px;
   text-transform: uppercase;
-  color:rgb(17, 17, 53);
+  color: rgb(17, 17, 53);
   text-decoration: underline;
   text-decoration-color: rgb(233, 218, 245);
   text-decoration-thickness: 5px;
@@ -412,35 +412,49 @@ html {
 #contacto .contenedor-form .fila {
   margin-bottom: 15px;
 }
-#contacto .contenedor-form .mitad{
+#contacto .contenedor-form .mitad {
   display: flex;
   justify-content: space-between;
 }
 #contacto .contenedor-form input,
-#contacto .contenedor-form textarea{
+#contacto .contenedor-form textarea {
   padding: 20px;
   border-radius: 20px;
   border: none;
   border: 1px solid #917592;
-
 }
-#contacto .contenedor-form .mitad input{
+#contacto .contenedor-form .mitad input {
   width: 48%;
 }
-#contacto .contenedor-form .input-full{
+#contacto .contenedor-form .input-full {
   width: 100%;
 }
-#contacto .btn-enviar{
+#contacto .btn-enviar {
   display: block;
   margin: auto;
   cursor: pointer;
-  transition: .5s;
+  transition: 0.5s;
   padding: 10px 15px;
   font-size: 18px;
   font-weight: bold;
 }
-#contacto .btn-enviar:hover{
+#contacto .btn-enviar:hover {
   background-color: rgb(207, 165, 237);
   color: rgb(255, 255, 255);
 }
 /*probando su commit */
+/* footer */
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+  /* text-transform: uppercase; */
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  margin: 5px;
+  font-size: 26px;
+}
