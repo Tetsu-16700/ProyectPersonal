@@ -63,6 +63,9 @@ html {
 #inicio .contenido header .contenido-header .redes a:hover {
   color: rgb(149, 0, 255);
 }
+#inicio .contenido header .contenido-header .seleccionado {
+  color: rgb(149, 0, 255);
+}
 #inicio .contenido .presentacion {
   max-width: 1100px;
   height: 100vh;
@@ -282,22 +285,29 @@ html {
 }
 .contenedor-skills .skills .barra .barra-progreso2 {
   background-color: rgb(200, 149, 237);
-  width: 90%;
+  width: 95%;
   height: 6px;
-  animation: progreso2 2s forwards;
+  animation: progreso1 2s forwards;
 }
 .contenedor-skills .skills .barra .barra-progreso3 {
   background-color: rgb(200, 149, 237);
   width: 90%;
   height: 6px;
-  animation: progreso3 2s forwards;
+  animation: progreso2 2s forwards;
 }
 .contenedor-skills .skills .barra .barra-progreso4 {
+  background-color: rgb(200, 149, 237);
+  width: 90%;
+  height: 6px;
+  animation: progreso3 2s forwards;
+}
+.contenedor-skills .skills .barra .barra-progreso5 {
   background-color: rgb(200, 149, 237);
   width: 85%;
   height: 6px;
   animation: progreso4 2s forwards;
 }
+
 /* Se crea las animaciones de barras */
 @keyframes progreso1 {
   0% {
@@ -488,21 +498,21 @@ footer a {
   #inicio .contenido .presentacion h2 {
     font-size: 40px;
   }
-  #sobremi {
+  #sobreMi {
     padding: 50px 0;
     display: block;
   }
-  #sobremi .contenedor-imagen {
+  #sobreMi .contenedor-imagen {
     max-width: 200px;
     margin: auto;
   }
-  #sobremi .contenedor-imagen img {
+  #sobreMi .contenedor-imagen img {
     padding: 8px;
   }
-  #sobremi .sobreMi .titulo-seccion {
+  #sobreMi .sobreMi .titulo-seccion {
     text-align: center;
   }
-  #sobremi .sobreMi h2 {
+  #sobreMi .sobreMi h2 {
     font-size: 25px;
     text-align: center;
   }
@@ -522,8 +532,21 @@ footer a {
   #portfolio {
     padding: 50px 0;
   }
-  #portfolio .fila{
+  #portfolio .fila {
     display: block;
   }
-
+  #portfolio .fila .proyecto {
+    margin: 10px auto;
+  }
+  #contacto {
+    padding: 50px 15px;
+  }
+  #contacto .contenedor-form .mitad {
+    margin-bottom: 15px;
+    display: block;
+  }
+  #contacto .contenedor-form .mitad input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
 }
