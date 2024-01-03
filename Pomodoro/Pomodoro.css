@@ -30,28 +30,29 @@ button,
 input [type="submit"] {
   border: none;
   background-color: hsl(210, 100%, 20%);
-  color: hsl(0, 0%, 100%)ff;
+  color: hsl(0, 0%, 100%) ff;
   padding: 10px;
   border-radius: 5px;
 }
-#tasks{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 10px;
+#tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
 }
-.task{
-    display: flex;
-    gap: 10px;
-    align-items: center;
+.task {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 .task .completed {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
+
 .done {
-    display: inline-block;
-    padding: 5px;
-    background-color: hsl(0, 0%, 80%);
+  display: inline-block;
+  padding: 5px;
+  background-color: #ccc;
 }
